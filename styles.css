@@ -9,7 +9,9 @@ body {
     background: url("https://imgs.search.brave.com/EPlRXAModqCZWQXvpFNGynaPlZO-UU9wZQeHpW4UT5I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTI4/OTM4NjYvcGhvdG8v/c3BhY2Utc3RhcnMt/dGV4dHVyZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9aXhF/Zmt0UmhtMEphY1RP/OHlUa1UxRXhsY2VC/cUlaN1Bmc0hBeVdt/eEcyMD0");
     padding: 20px 10px;
 }
-
+#queryInput{
+color:white;
+}
 h1{
     color: white;
     border-bottom: 2px solid green;
