@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Submission</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- Add Axios CDN -->
+</head>
+<body>
+    <div class="container">
+        <div class="con1">
+            <h1>Mock Test Generator</h1>
+            <p>Topic-wise preparation</p>
+            <form id="queryForm">
+                <textarea id="queryInput" placeholder="Kindly Provide your Syllabus" rows="8" cols="50"></textarea>
+                <br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+            <h2>You Units and Topics Appears Here</h2>
+            <pre id="resultOutput"></pre>
+        </div>
+        <div class="con2">
+            <h2>You Test Appears Here</h2>
+            <pre id="resultOutput2"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
