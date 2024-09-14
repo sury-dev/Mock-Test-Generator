@@ -29,18 +29,28 @@ h1{
 }
 .con1{
     min-width: 45vw;
-    height: 100%;
+    height: calc(100vh - 40px);
     border: 2px solid white;
     border-radius: 25px;
     padding: 20px 0px;
+    overflow: scroll;
 }
 
 .con2{
     min-width: 45vw;
-    height: 100%;
+    height: calc(100vh - 40px);
     border: 2px solid white;
     border-radius: 25px;
     padding: 20px 0px;
+    overflow: scroll;
+}
+
+.con2::-webkit-scrollbar{
+    display: none;
+}
+
+.con1::-webkit-scrollbar{
+    display: none;
 }
 
 h2{
